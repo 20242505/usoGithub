@@ -8,8 +8,8 @@ on:
 
 jobs:
   build:
-    name: Autograding
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest    
+    runs-on: [self-hosted, oracle]
     
     steps:
     - name: Checkout code
