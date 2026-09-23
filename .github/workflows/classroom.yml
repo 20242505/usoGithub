@@ -8,7 +8,6 @@ permissions:
   contents: read
 jobs:
   run-autograding-tests:
-    # runs-on: ubuntu-latest    
     runs-on: [self-hosted, oracle]
     if: github.actor != 'github-classroom[bot]'
     steps:
