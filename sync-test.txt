@@ -1,0 +1,3 @@
+```bash
+   echo "Test de sincronización" > sync-test.txt
+   ```
